@@ -184,6 +184,9 @@ Animation Effact
         Footer section
 ---------------------------------*/
 
+.footer-section{
+    margin-top: 100px;
+}
 .icon-container {
     display: table;
     text-align: center;
@@ -231,9 +234,14 @@ Media Queries
 
     /* Middle section for mobile */
 
-    .players{
+    .players {
         grid-template-columns: repeat(1, 1fr);
         
+    }
+    .supporters{
+        grid-row: repeat(5, 1fr);
+        text-align: center;
+        padding-left: 15px;
     }
     /* bottom section for mobile */
     .bottom-text{
@@ -307,4 +315,31 @@ Media Queries
     .icon, .footer-text {
         margin-left: 100px;
     }
+}
+/* bonus part */
+.main{
+    padding: 10%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    padding: 0 5%;
+    grid-row: auto;
+}
+
+
+.text{
+    text-align: center;
+}
+
+
+.space{
+    margin: 0 auto;
+}
+.like{
+    margin-top: 5%;
+}
+
+.shadow{
+    box-shadow: 1px 1px 25px gray;
 }
